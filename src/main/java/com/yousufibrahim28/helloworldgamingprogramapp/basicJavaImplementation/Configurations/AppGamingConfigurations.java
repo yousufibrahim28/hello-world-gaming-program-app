@@ -2,7 +2,7 @@ package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.C
 
 
 import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.AppGamingInterfaces.GamingConsole;
-import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.GameRunner;
+import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.GameRunner;
 import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.MarioGame;
 import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.PacManGame;
 import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.SuperContraGame;

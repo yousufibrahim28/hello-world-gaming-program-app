@@ -1,7 +1,11 @@
 package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games;
 
 import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.AppGamingInterfaces.GamingConsole;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component
+@Qualifier("Mario")
 public class MarioGame implements GamingConsole {
 
     public void up() {

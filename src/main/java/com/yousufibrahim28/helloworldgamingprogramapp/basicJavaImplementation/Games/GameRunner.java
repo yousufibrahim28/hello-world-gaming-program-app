@@ -1,7 +1,12 @@
-package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation;
+package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games;
 
 import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.AppGamingInterfaces.GamingConsole;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 
+// Making Spring to create the bean by using @Component
+@Component
+@Primary
 public class GameRunner {
 
     GamingConsole game;
