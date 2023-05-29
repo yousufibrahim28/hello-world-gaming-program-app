@@ -2,8 +2,10 @@ package com.yousufibrahim28.helloworldgamingprogramapp.BusinessCalculationServic
 
 import com.yousufibrahim28.helloworldgamingprogramapp.BusinessCalculationService.Interface.DataService;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
+@Repository
 public class MySQLDataService implements DataService {
     @Override
     public int[] retrieveData() {

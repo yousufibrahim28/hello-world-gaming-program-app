@@ -1,6 +1,6 @@
-package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation;
+package com.yousufibrahim28.helloworldgamingprogramapp.GamingAppLauncherBasicJavaAndSpring;
 
-import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.*;
+import com.yousufibrahim28.helloworldgamingprogramapp.GamingAppLauncherBasicJavaAndSpring.Games.*;
 import org.springframework.context.annotation.*;
 
 // This is one way to have the configurations in the Launcher itself

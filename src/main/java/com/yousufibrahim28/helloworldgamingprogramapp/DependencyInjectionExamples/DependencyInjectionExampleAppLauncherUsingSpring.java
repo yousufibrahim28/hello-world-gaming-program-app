@@ -1,6 +1,5 @@
-package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.DependencyExamples;
+package com.yousufibrahim28.helloworldgamingprogramapp.DependencyInjectionExamples;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -70,10 +69,10 @@ class Dependency2 {
 }
 @Configuration
 @ComponentScan
-public class DependencyInjectionGamingAppLauncherUsingSpring {
+public class DependencyInjectionExampleAppLauncherUsingSpring {
     public static void main(String[] args) {
         try(AnnotationConfigApplicationContext context =
-                    new AnnotationConfigApplicationContext(DependencyInjectionGamingAppLauncherUsingSpring.class)) {
+                    new AnnotationConfigApplicationContext(DependencyInjectionExampleAppLauncherUsingSpring.class)) {
 
             Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
 

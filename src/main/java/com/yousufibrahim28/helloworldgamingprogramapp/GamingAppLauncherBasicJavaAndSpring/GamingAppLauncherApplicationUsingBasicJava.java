@@ -1,7 +1,7 @@
-package com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation;
+package com.yousufibrahim28.helloworldgamingprogramapp.GamingAppLauncherBasicJavaAndSpring;
 
-import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.GameRunner;
-import com.yousufibrahim28.helloworldgamingprogramapp.basicJavaImplementation.Games.PacManGame;
+import com.yousufibrahim28.helloworldgamingprogramapp.GamingAppLauncherBasicJavaAndSpring.Games.GameRunner;
+import com.yousufibrahim28.helloworldgamingprogramapp.GamingAppLauncherBasicJavaAndSpring.Games.PacManGame;
 
 public class GamingAppLauncherApplicationUsingBasicJava {
 

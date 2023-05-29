@@ -3,8 +3,10 @@ package com.yousufibrahim28.helloworldgamingprogramapp.BusinessCalculationServic
 import com.yousufibrahim28.helloworldgamingprogramapp.BusinessCalculationService.Interface.DataService;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
+@Repository
 @Primary
 public class MongoDBDataService implements DataService {
     @Override
